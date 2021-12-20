@@ -1,0 +1,27 @@
+package com.vertraining.springcidemo.autowiring;
+
+import java.util.List;
+
+public class Book {
+	
+	private String name;
+	private String author;
+	
+	private List<String> cities;
+	
+	private Publisher publisher;
+
+	
+
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", author=" + author + ", cities=" + cities + ", publisher=" + publisher + "]";
+	}
+
+	
+	
+	
+	
+	
+
+}

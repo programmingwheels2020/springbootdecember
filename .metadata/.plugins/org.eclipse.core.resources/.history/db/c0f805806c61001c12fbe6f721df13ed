@@ -1,0 +1,8 @@
+package com.vertraining.springcidemo.ambuigity;
+
+public class Addition {
+  
+	Addition(int i, int j){
+		 System.out.println("Integer addition");
+	}
+}

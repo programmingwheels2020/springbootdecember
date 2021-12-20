@@ -1,0 +1,77 @@
+package com.vertraining.springcidemo.autowiring;
+
+import java.util.List;
+
+public class Book {
+	
+	private String name;
+	private String author;
+	
+	private List<String> cities;
+	
+	private Publisher publisher;
+
+	
+	
+	
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+	public String getAuthor() {
+		return author;
+	}
+
+
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+
+
+	public List<String> getCities() {
+		return cities;
+	}
+
+
+
+	public void setCities(List<String> cities) {
+		this.cities = cities;
+	}
+
+
+
+	public Publisher getPublisher() {
+		return publisher;
+	}
+
+
+
+	public void setPublisher(Publisher publisher) {
+		this.publisher = publisher;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", author=" + author + ", cities=" + cities + ", publisher=" + publisher + "]";
+	}
+
+	
+	
+	
+	
+	
+
+}
